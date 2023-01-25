@@ -16,15 +16,6 @@ from stocknews import StockNews
 from pandas_datareader import data as pdr
 # the application layout 
 st.set_page_config('stock forecasting Dashboard',layout='wide')
-# ---- HIDE STREAMLIT STYLE ----
-hide_st_style = """
-            <style>
-            MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_st_style, unsafe_allow_html=True)
 st.markdown(
      """
             <style>
